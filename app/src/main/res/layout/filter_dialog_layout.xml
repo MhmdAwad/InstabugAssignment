@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:text="@string/filter_by"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/title"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:id="@+id/filterAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/all"/>
+
+        <RadioButton
+            android:id="@+id/filterGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get"/>
+
+        <RadioButton
+            android:id="@+id/filterPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/post"/>
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">InstabugAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="create_new_request">Create new request</string>
+    <string name="request_url">Request URL</string>
+    <string name="required">Required*</string>
+    <string name="accept">accept</string>
+    <string name="application_json">application/json</string>
+    <string name="key">Key</string>
+    <string name="value">Value</string>
+    <string name="add_new_header">Add new header</string>
+    <string name="get">GET</string>
+    <string name="post">POST</string>
+    <string name="request_body">Request Body:</string>
+    <string name="headers">Headers:</string>
+    <string name="make_a_request">make a request</string>
+    <string name="delete_selected_header">Delete selected header</string>
+    <string name="request_body_example">\n{\n \"key\": \"value\",  \n   \"key\": \"value\" \n}</string>
+    <string name="response_code">Response Code:</string>
+    <string name="response_body">Response Body:</string>
+    <string name="request_header">Request Header:</string>
+    <string name="response_header">Response Header:</string>
+    <string name="queries">Query Parameters:</string>
+    <string name="copiedSuccessfully">Copied successfully</string>
+    <string name="responseType">%1$s/%2$s</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by">Filter by:</string>
+    <string name="all">ALL</string>
+    <string name="no_requests_until_now">No requests until now!</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="copy_value">Copy value</string>
+</resources>
